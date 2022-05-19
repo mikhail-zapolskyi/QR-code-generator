@@ -14,7 +14,7 @@ module.exports = {
                option.setName('height').setDescription('User input value to QR CODE')     
           ),
      async execute(interaction: any) {
-          const input: string = interaction.options.getString('input') || 'Test QR CODE';
+          const input: string = interaction.options.getString('input').split(' ').join('_') || 'Test_QR_CODE';
           const width: number = interaction.options.getNumber('width') || 200;
           const height: number = interaction.options.getNumber('height') || 200;
           const url: string = `https://chart.googleapis.com/chart?cht=qr&chs=${ width }x${ height }&chl=${ input }`
