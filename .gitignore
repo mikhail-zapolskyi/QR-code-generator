@@ -1,3 +1,7 @@
-node_modules
+# modules
+node_modules/
+
+# dest folder
+dest/
+# variables
 .env
-dest
