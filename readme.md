@@ -15,6 +15,6 @@ Install dependences: npm install
 - Run: npm run build
 
 ## Run APP server
-Run: npm start
-Stop: npm stop
-kill server: npm run kill
+- Run: npm start
+- Stop: npm stop
+- kill server: npm run kill
