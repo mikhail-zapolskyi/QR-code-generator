@@ -8,11 +8,11 @@ Built with Node.js/express.js, TypeScript, Discord.js
 
 ## Installation
 Install dependences: npm install
-Create .env file in main folder and add:
+- Create .env file in main folder and add:
 - DISCORD_BOT_TOKEN= your bot token
 - DISCORD_GUILD_ID= your guild id
 - DISCORD_CLIENT_ID= your client id
-Run: npm run build
+- Run: npm run build
 
 ## Run APP server
 Run: npm start
